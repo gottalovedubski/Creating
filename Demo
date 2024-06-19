@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyPWd3vLKqXQZ4DVimZXMx+q",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/gottalovedubski/Creating/blob/main/Demo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Print Mikayla's World"
+      ],
+      "metadata": {
+        "id": "XNW8agGDgKld"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "z778Rx3VbKDI"
+      },
+      "outputs": [],
+      "source": [
+        "print(\"Mikayla's World!\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##Turning A dictionary into A Data Frame"
+      ],
+      "metadata": {
+        "id": "_Y1Oj2QlgbhG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "dictt = (\"Names\" : [\"Mikayla\", \"Frank\", \"Bella\",\"Tyler\"],\n",
+        "         \"Ages\" : [19, 30, 24, 22]\n",
+        "         \"Cities\" : [\"Baltimore\", \"Atlanta\", \"New York\", \"Dallas\"]\n",
+        ")\n",
+        "Data = pd.DataFrame(dictt)"
+      ],
+      "metadata": {
+        "id": "k6iAPBQ6gkev"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
